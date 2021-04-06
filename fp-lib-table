@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nucleo64-guitar-dsp)(type KiCad)(uri ${KIPRJMOD}/nucleo64-guitar-dsp.pretty)(options "")(descr ""))
+)

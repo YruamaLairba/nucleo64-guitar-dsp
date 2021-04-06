@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name nucleo64-guitar-dsp)(type Legacy)(uri ${KIPRJMOD}/nucleo64-guitar-dsp.lib)(options "")(descr ""))
+)

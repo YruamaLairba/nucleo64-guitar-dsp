@@ -1,0 +1,474 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Audio:WM8731SEDS U?
+U 1 1 607239F0
+P 4700 3200
+AR Path="/607239F0" Ref="U?"  Part="1" 
+AR Path="/60717BFB/607239F0" Ref="U1"  Part="1" 
+AR Path="/60B6D712/607239F0" Ref="U1"  Part="1" 
+F 0 "U1" H 4700 3250 50  0000 C CNN
+F 1 "WM8731SEDS" H 4700 3000 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 4700 1900 50  0001 C CNN
+F 3 "https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf" H 4700 3200 50  0001 C CNN
+F 4 "C323837" H 4700 3200 50  0001 C CNN "LCSC Part"
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1950 4000 1950
+Wire Wire Line
+	4100 1500 4000 1500
+Connection ~ 4100 1950
+Wire Wire Line
+	4100 1950 4100 1500
+Wire Wire Line
+	3600 1500 3700 1500
+Wire Wire Line
+	3600 1500 3600 1950
+Wire Wire Line
+	3700 1950 3600 1950
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 6072A4C7
+P 3600 900
+F 0 "#PWR0115" H 3600 750 50  0001 C CNN
+F 1 "+3V3" H 3615 1073 50  0000 C CNN
+F 2 "" H 3600 900 50  0001 C CNN
+F 3 "" H 3600 900 50  0001 C CNN
+	1    3600 900 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 1950 3600 2250
+Wire Wire Line
+	4500 2250 4500 2300
+Connection ~ 3600 1950
+Wire Wire Line
+	4100 1950 4200 1950
+Wire Wire Line
+	4100 1500 4200 1500
+Wire Wire Line
+	4600 2300 4600 1950
+Wire Wire Line
+	4500 1500 4600 1500
+Connection ~ 4600 1500
+Wire Wire Line
+	4500 1950 4600 1950
+Connection ~ 4600 1950
+Wire Wire Line
+	4600 1950 4600 1500
+$Comp
+L power:+3V3 #PWR0117
+U 1 1 6073CC5C
+P 4600 900
+F 0 "#PWR0117" H 4600 750 50  0001 C CNN
+F 1 "+3V3" H 4550 1050 50  0000 C CNN
+F 2 "" H 4600 900 50  0001 C CNN
+F 3 "" H 4600 900 50  0001 C CNN
+	1    4600 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4550 5500 4450
+Wire Wire Line
+	5950 4550 5950 4450
+Wire Wire Line
+	5500 4550 5950 4550
+Wire Wire Line
+	5400 1500 5500 1500
+Wire Wire Line
+	5400 1500 5400 1950
+Wire Wire Line
+	5500 1950 5400 1950
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 6073D47C
+P 5400 900
+F 0 "#PWR0119" H 5400 750 50  0001 C CNN
+F 1 "+3V3" H 5415 1073 50  0000 C CNN
+F 2 "" H 5400 900 50  0001 C CNN
+F 3 "" H 5400 900 50  0001 C CNN
+	1    5400 900 
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5400 1500
+Wire Wire Line
+	5400 1950 5400 2250
+Connection ~ 5400 1950
+Wire Wire Line
+	5300 1950 5200 1950
+Wire Wire Line
+	5300 1500 5200 1500
+Connection ~ 5300 1950
+Wire Wire Line
+	5300 1950 5300 1500
+Wire Wire Line
+	4800 2300 4800 1950
+Wire Wire Line
+	4900 1500 4800 1500
+Connection ~ 4800 1500
+Wire Wire Line
+	4900 1950 4800 1950
+Connection ~ 4800 1950
+Wire Wire Line
+	4800 1950 4800 1500
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 6073D4B4
+P 4800 900
+F 0 "#PWR0121" H 4800 750 50  0001 C CNN
+F 1 "+3V3" H 4800 1050 50  0000 C CNN
+F 2 "" H 4800 900 50  0001 C CNN
+F 3 "" H 4800 900 50  0001 C CNN
+	1    4800 900 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2250 4900 2250
+Wire Wire Line
+	4900 2250 4900 2300
+Connection ~ 4100 1500
+Wire Wire Line
+	3600 2250 4500 2250
+$Comp
+L power:GND #PWR0122
+U 1 1 6074EB97
+P 4500 5050
+F 0 "#PWR0122" H 4500 4800 50  0001 C CNN
+F 1 "GND" H 4505 4877 50  0000 C CNN
+F 2 "" H 4500 5050 50  0001 C CNN
+F 3 "" H 4500 5050 50  0001 C CNN
+	1    4500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 6074F4F9
+P 4800 5050
+F 0 "#PWR0123" H 4800 4800 50  0001 C CNN
+F 1 "GND" H 4805 4877 50  0000 C CNN
+F 2 "" H 4800 5050 50  0001 C CNN
+F 3 "" H 4800 5050 50  0001 C CNN
+	1    4800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 60750096
+P 4900 5050
+F 0 "#PWR0124" H 4900 4800 50  0001 C CNN
+F 1 "GND" H 4905 4877 50  0000 C CNN
+F 2 "" H 4900 5050 50  0001 C CNN
+F 3 "" H 4900 5050 50  0001 C CNN
+	1    4900 5050
+	1    0    0    -1  
+$EndComp
+Text HLabel 9100 3700 2    50   Input ~ 0
+LIN
+Text HLabel 9100 4500 2    50   Input ~ 0
+RIN
+Wire Wire Line
+	7900 3700 7900 3200
+Wire Wire Line
+	7900 3200 5400 3200
+Wire Wire Line
+	7800 4500 7800 3300
+Wire Wire Line
+	7800 3300 5400 3300
+$Comp
+L Device:CP C1
+U 1 1 607A25BB
+P 6850 900
+F 0 "C1" V 7105 900 50  0000 C CNN
+F 1 "220u" V 7014 900 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6888 750 50  0001 C CNN
+F 3 "~" H 6850 900 50  0001 C CNN
+F 4 "C127968" H 6850 900 50  0001 C CNN "LCSC Part"
+	1    6850 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 607A39C0
+P 7100 1150
+F 0 "R1" H 7170 1196 50  0000 L CNN
+F 1 "4.7k" H 7170 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 1150 50  0001 C CNN
+F 3 "~" H 7100 1150 50  0001 C CNN
+F 4 "C23162" H 7100 1150 50  0001 C CNN "LCSC Part"
+	1    7100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 607A3E24
+P 7100 1300
+F 0 "#PWR0125" H 7100 1050 50  0001 C CNN
+F 1 "GND" H 7105 1127 50  0000 C CNN
+F 2 "" H 7100 1300 50  0001 C CNN
+F 3 "" H 7100 1300 50  0001 C CNN
+	1    7100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 900  7100 900 
+Wire Wire Line
+	7100 1000 7100 900 
+Connection ~ 7100 900 
+Wire Wire Line
+	7100 900  7200 900 
+$Comp
+L Device:CP C2
+U 1 1 607AEB9F
+P 6850 1650
+F 0 "C2" V 7105 1650 50  0000 C CNN
+F 1 "220u" V 7014 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6888 1500 50  0001 C CNN
+F 3 "~" H 6850 1650 50  0001 C CNN
+F 4 "C127968" H 6850 1650 50  0001 C CNN "LCSC Part"
+	1    6850 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 607AEBBB
+P 7100 1900
+F 0 "R2" H 7170 1946 50  0000 L CNN
+F 1 "4.7k" H 7170 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 1900 50  0001 C CNN
+F 3 "~" H 7100 1900 50  0001 C CNN
+F 4 "C23162" H 7100 1900 50  0001 C CNN "LCSC Part"
+	1    7100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 607AEBC5
+P 7100 2050
+F 0 "#PWR0126" H 7100 1800 50  0001 C CNN
+F 1 "GND" H 7105 1877 50  0000 C CNN
+F 2 "" H 7100 2050 50  0001 C CNN
+F 3 "" H 7100 2050 50  0001 C CNN
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 7200 1650 2    50   Output ~ 0
+RHPOUT
+Wire Wire Line
+	7000 1650 7100 1650
+Wire Wire Line
+	7100 1750 7100 1650
+Connection ~ 7100 1650
+Wire Wire Line
+	7100 1650 7200 1650
+Wire Wire Line
+	6700 900  6500 900 
+Wire Wire Line
+	6500 900  6500 2600
+Wire Wire Line
+	6500 2600 5400 2600
+Wire Wire Line
+	6700 1650 6600 1650
+Wire Wire Line
+	6600 1650 6600 2700
+Wire Wire Line
+	6600 2700 5400 2700
+Wire Wire Line
+	5400 3900 5500 3900
+Wire Wire Line
+	5950 3900 5950 4150
+Wire Wire Line
+	5500 3900 5500 4150
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 3900 5950 3900
+Connection ~ 5950 4550
+Text HLabel 3500 2500 0    50   Input ~ 0
+DACDAT
+Text HLabel 3500 2600 0    50   BiDi ~ 0
+DACLRC
+Text HLabel 3500 2700 0    50   Output ~ 0
+ADCDAT
+Text HLabel 3500 2800 0    50   BiDi ~ 0
+ADCLRC
+Text HLabel 3500 2900 0    50   BiDi ~ 0
+BCLK
+Wire Wire Line
+	3500 2500 4000 2500
+Wire Wire Line
+	4000 2600 3500 2600
+Wire Wire Line
+	3500 2700 4000 2700
+Wire Wire Line
+	4000 2800 3500 2800
+Wire Wire Line
+	3500 2900 4000 2900
+Text HLabel 3500 3100 0    50   Input ~ 0
+SDIN
+Text HLabel 3500 3200 0    50   Input ~ 0
+SCLK
+Text HLabel 3500 3300 0    50   Input ~ 0
+CSB
+Wire Wire Line
+	3500 3100 4000 3100
+Wire Wire Line
+	4000 3200 3500 3200
+Wire Wire Line
+	4000 3300 3500 3300
+Text HLabel 2500 3400 0    50   Input ~ 0
+MODE
+NoConn ~ 5400 3500
+NoConn ~ 5400 3700
+Text Notes 2200 4650 0    50   ~ 0
+Layout indication:\nbypass capacitor closest to the following pin\nDBVDD - DGND\nDCVDD - DGND\nAVDD - AGND\nHPVDD - HPGND
+$Comp
+L Device:C Cb3
+U 1 1 60724933
+P 3850 1500
+F 0 "Cb3" V 3595 1500 50  0000 C CNN
+F 1 "22u" V 3686 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3888 1350 50  0001 C CNN
+F 3 "~" H 3850 1500 50  0001 C CNN
+F 4 "C45783" H 3850 1500 50  0001 C CNN "LCSC Part"
+	1    3850 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C Cb4
+U 1 1 60734606
+P 4350 1500
+F 0 "Cb4" V 4095 1500 50  0000 C CNN
+F 1 "22u" V 4186 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 1350 50  0001 C CNN
+F 3 "~" H 4350 1500 50  0001 C CNN
+F 4 "C45783" H 4350 1500 50  0001 C CNN "LCSC Part"
+	1    4350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C Cb5
+U 1 1 6073D494
+P 5050 1500
+F 0 "Cb5" V 4795 1500 50  0000 C CNN
+F 1 "22u" V 4886 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5088 1350 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+F 4 "C45783" H 5050 1500 50  0001 C CNN "LCSC Part"
+	1    5050 1500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5900 1950 5800 1950
+Wire Wire Line
+	5900 1500 5800 1500
+Connection ~ 5900 1950
+Wire Wire Line
+	5900 1950 5900 1500
+$Comp
+L Device:C Cb6
+U 1 1 60881B2B
+P 5650 1500
+F 0 "Cb6" V 5395 1500 50  0000 C CNN
+F 1 "22u" V 5486 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5688 1350 50  0001 C CNN
+F 3 "~" H 5650 1500 50  0001 C CNN
+F 4 "C45783" H 5650 1500 50  0001 C CNN "LCSC Part"
+	1    5650 1500
+	0    -1   1    0   
+$EndComp
+NoConn ~ 4000 3600
+NoConn ~ 4000 3800
+Wire Wire Line
+	4000 3700 3500 3700
+Text HLabel 3500 3700 0    50   Input ~ 0
+MCLK
+Wire Wire Line
+	2500 3400 4000 3400
+Text Label 3650 2250 0    50   ~ 0
+DCVDD
+Text Label 4600 2250 1    50   ~ 0
+DBVDD
+Text Label 4800 2250 1    50   ~ 0
+AVDD
+Text Label 4950 2250 0    50   ~ 0
+HPVDD
+$Comp
+L Device:C Cb8
+U 1 1 6073D460
+P 5950 4300
+F 0 "Cb8" H 5832 4346 50  0000 R CNN
+F 1 "22u" H 5832 4255 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5988 4150 50  0001 C CNN
+F 3 "~" H 5950 4300 50  0001 C CNN
+F 4 "C45783" H 5950 4300 50  0001 C CNN "LCSC Part"
+	1    5950 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4500 9100 4500
+Wire Wire Line
+	7900 3700 9100 3700
+NoConn ~ 5400 2900
+NoConn ~ 5400 3000
+Text Notes 2200 5000 0    50   ~ 0
+Note: \nrecommended values of decoupling capacitor is normally 10uf\nI use 22uf MLCC whose value fall around 15uf when biased with\n3.3v
+Text Label 5600 3900 0    50   ~ 0
+VMID
+Text Label 5550 2600 0    50   ~ 0
+WMLHP
+Text Label 5550 2700 0    50   ~ 0
+WMRHP
+Text HLabel 7200 900  2    50   Output ~ 0
+LHPOUT
+Text Label 4500 4400 1    50   ~ 0
+DGND
+Text Label 4800 4400 1    50   ~ 0
+AGND
+Text Label 4900 4400 1    50   ~ 0
+HPGND
+Text Label 4100 2050 0    50   ~ 0
+DGND
+Wire Wire Line
+	4100 2050 4100 1950
+Text Label 5300 2050 2    50   ~ 0
+AGND
+Wire Wire Line
+	5300 1950 5300 2050
+Text Label 5900 2050 0    50   ~ 0
+HPGND
+Wire Wire Line
+	5900 1950 5900 2050
+Wire Wire Line
+	5950 4650 5950 4550
+Text Label 5950 4650 2    50   ~ 0
+AGND
+Wire Wire Line
+	3600 900  3600 1500
+Wire Wire Line
+	4900 4100 4900 5050
+Wire Wire Line
+	4800 4100 4800 5050
+Wire Wire Line
+	4500 4100 4500 5050
+Wire Wire Line
+	5400 900  5400 1500
+Wire Wire Line
+	4800 900  4800 1500
+Wire Wire Line
+	4600 900  4600 1500
+$EndSCHEMATC
